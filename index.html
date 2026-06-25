@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoFuturo - Sustentabilidade para Todos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a href="#conteudo" class="skip-link">Pular para o conteúdo principal</a>
+
+<header>
+    <h1>🌱 EcoFuturo</h1>
+    <p>Pequenas ações geram grandes mudanças.</p>
+</header>
+
+<nav aria-label="Menu principal">
+    <a href="#sobre">Sobre</a>
+    <a href="#impacto">Impacto</a>
+    <a href="#quiz">Quiz</a>
+    <a href="#acao">Acessibilidade</a>
+</nav>
+
+<main id="conteudo">
+
+<section id="sobre">
+    <h2>Por que a Sustentabilidade Importa?</h2>
+
+    <div class="cards">
+        <article class="card">
+            <h3>🌳 Meio Ambiente</h3>
+            <p>Proteção dos ecossistemas e redução da poluição.</p>
+        </article>
+
+        <article class="card">
+            <h3>♻️ Consumo Consciente</h3>
+            <p>Uso responsável dos recursos naturais.</p>
+        </article>
+
+        <article class="card">
+            <h3>🌎 Futuras Gerações</h3>
+            <p>Garantir qualidade de vida para todos.</p>
+        </article>
+    </div>
+</section>
+
+<section id="impacto">
+    <div class="contador">
+        <h2>Impacto Coletivo</h2>
+        <p>Clique para plantar árvores virtuais.</p>
+
+        <div id="contador" class="numero">0</div>
+        <div id="arvore">🌱</div>
+
+        <button onclick="plantarArvore()">
+            Plantar Árvore
+        </button>
+    </div>
+</section>
+
+<section id="quiz">
+    <div class="quiz">
+        <h2>Quiz Sustentável</h2>
+
+        <p>Qual destas ações ajuda a reduzir resíduos?</p>
+
+        <button onclick="resposta(true)">
+            Utilizar garrafas reutilizáveis
+        </button>
+
+        <button onclick="resposta(false)">
+            Descartar plástico em qualquer lugar
+        </button>
+
+        <p id="resultado"></p>
+    </div>
+</section>
+
+<section id="acao">
+    <h2>Ferramentas de Acessibilidade</h2>
+
+    <button onclick="alternarContraste()">
+        Alto Contraste
+    </button>
+
+    <button onclick="aumentarFonte()">
+        Aumentar Fonte
+    </button>
+</section>
+
+</main>
+
+<footer>
+    <p>EcoFuturo © 2026</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
