@@ -130,20 +130,15 @@ footer{
     background-image: url("https://images.unsplash.com/photo-1441974231531-c6227db76b6e");
     background-size: cover;
     background-position: center;
+body{
+    font-family: Arial, sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1920&q=80");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     color: var(--texto);
     line-height: 1.6;
-}body{
-    font-family: Arial, sans-serif;
-    background: linear-gradient(
-        -45deg,
-        #2e8b57,
-        #4caf50,
-        #8bc34a,
-        #cddc39
-    );
-    background-size: 400% 400%;
-    animation: fundoAnimado 12s ease infinite;
-    color: var(--texto);
-    line-height: 1.6;
+    min-height: 100vh;
+}
 }
